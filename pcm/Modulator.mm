@@ -7,7 +7,7 @@
 
 #import <cmath>
 #import "include/Modulator.h"
-#import "include/Reed-Solomon/include/rs.hpp"
+#import "include/Reed-Solomon/rs.hpp"
 
 @implementation Modulator
 - (id) init
@@ -41,7 +41,7 @@
                         size: (int) size
 {
     std::fill(eccPayload.begin(), eccPayload.end(), 0);
-    RS::ReedSolomon rsData = RS::ReedSolomon(4, 4);
+    RS::ReedSolomon<4,4> rsData {};
     rsData.Encode(message.data(), eccPayload.data());
 
     for (int frameId = 0; frameId < 27; frameId++) 
