@@ -1,6 +1,11 @@
 [submodule "pcm/include/Reed-Solomon"]
 	path = pcm/include/Reed-Solomon
 	url = git@github.com:rhysbalevicius/Reed-Solomon.git
+	branch = include
 [submodule "pcm/include/AudioFile"]
 	path = pcm/include/AudioFile
 	url = git@github.com:adamstark/AudioFile.git
+[submodule "chronos/chronos/ReedSolomon/Reed-Solomon"]
+	path = chronos/chronos/ReedSolomon/Reed-Solomon
+	url = git@github.com:rhysbalevicius/Reed-Solomon.git
+	branch = include

@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FCDA062AA509A9007B8017 /* chronos.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA052AA509A9007B8017 /* chronos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FCDA0D2AA50CC6007B8017 /* Chronos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */; };
+		A1FCDA0F2AA50D32007B8017 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA0E2AA50D32007B8017 /* AudioCapture.swift */; };
+		A1FCDA122AA50D5B007B8017 /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA112AA50D5B007B8017 /* Array+Chunked.swift */; };
+		A1FCDA142AA50D6B007B8017 /* Array+Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA132AA50D6B007B8017 /* Array+Copy.swift */; };
+		A1FCDA162AA50D9C007B8017 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA152AA50D9C007B8017 /* Debug.swift */; };
+		A1FCDA182AA50DDE007B8017 /* Demodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA172AA50DDE007B8017 /* Demodulator.swift */; };
+		A1FCDA1A2AA5151C007B8017 /* InternalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA192AA5151C007B8017 /* InternalTimer.swift */; };
+		A1FCDA1C2AA51552007B8017 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA1B2AA51552007B8017 /* StateMachine.swift */; };
+		A1FCDA202AA515E8007B8017 /* reed-solomon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */; };
+		A1FCDA212AA515E8007B8017 /* reed-solomon.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */; };
+		A1FCDA922AA54077007B8017 /* gf.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA8F2AA54077007B8017 /* gf.hpp */; };
+		A1FCDA932AA54077007B8017 /* rs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA902AA54077007B8017 /* rs.hpp */; };
+		A1FCDA942AA54077007B8017 /* poly.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA912AA54077007B8017 /* poly.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1FCDA022AA509A9007B8017 /* chronos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chronos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FCDA052AA509A9007B8017 /* chronos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chronos.h; sourceTree = "<group>"; };
+		A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chronos.swift; sourceTree = "<group>"; };
+		A1FCDA0E2AA50D32007B8017 /* AudioCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapture.swift; sourceTree = "<group>"; };
+		A1FCDA112AA50D5B007B8017 /* Array+Chunked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Chunked.swift"; sourceTree = "<group>"; };
+		A1FCDA132AA50D6B007B8017 /* Array+Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Copy.swift"; sourceTree = "<group>"; };
+		A1FCDA152AA50D9C007B8017 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		A1FCDA172AA50DDE007B8017 /* Demodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demodulator.swift; sourceTree = "<group>"; };
+		A1FCDA192AA5151C007B8017 /* InternalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTimer.swift; sourceTree = "<group>"; };
+		A1FCDA1B2AA51552007B8017 /* StateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reed-solomon.cpp"; sourceTree = "<group>"; };
+		A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "reed-solomon.hpp"; sourceTree = "<group>"; };
+		A1FCDA8F2AA54077007B8017 /* gf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
+		A1FCDA902AA54077007B8017 /* rs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		A1FCDA912AA54077007B8017 /* poly.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
+		A1FCDA952AA54718007B8017 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FCD9FF2AA509A9007B8017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FCD9F82AA509A9007B8017 = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA042AA509A9007B8017 /* chronos */,
+				A1FCDA032AA509A9007B8017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FCDA032AA509A9007B8017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA022AA509A9007B8017 /* chronos.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FCDA042AA509A9007B8017 /* chronos */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA1D2AA515BF007B8017 /* ReedSolomon */,
+				A1FCDA102AA50D48007B8017 /* Extensions */,
+				A1FCDA052AA509A9007B8017 /* chronos.h */,
+				A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */,
+				A1FCDA0E2AA50D32007B8017 /* AudioCapture.swift */,
+				A1FCDA152AA50D9C007B8017 /* Debug.swift */,
+				A1FCDA172AA50DDE007B8017 /* Demodulator.swift */,
+				A1FCDA192AA5151C007B8017 /* InternalTimer.swift */,
+				A1FCDA1B2AA51552007B8017 /* StateMachine.swift */,
+				A1FCDA952AA54718007B8017 /* module.modulemap */,
+			);
+			path = chronos;
+			sourceTree = "<group>";
+		};
+		A1FCDA102AA50D48007B8017 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA112AA50D5B007B8017 /* Array+Chunked.swift */,
+				A1FCDA132AA50D6B007B8017 /* Array+Copy.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1FCDA1D2AA515BF007B8017 /* ReedSolomon */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA8E2AA54077007B8017 /* Reed-Solomon */,
+				A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */,
+				A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */,
+			);
+			path = ReedSolomon;
+			sourceTree = "<group>";
+		};
+		A1FCDA8E2AA54077007B8017 /* Reed-Solomon */ = {
+			isa = PBXGroup;
+			children = (
+				A1FCDA8F2AA54077007B8017 /* gf.hpp */,
+				A1FCDA902AA54077007B8017 /* rs.hpp */,
+				A1FCDA912AA54077007B8017 /* poly.hpp */,
+			);
+			path = "Reed-Solomon";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1FCD9FD2AA509A9007B8017 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FCDA922AA54077007B8017 /* gf.hpp in Headers */,
+				A1FCDA932AA54077007B8017 /* rs.hpp in Headers */,
+				A1FCDA212AA515E8007B8017 /* reed-solomon.hpp in Headers */,
+				A1FCDA942AA54077007B8017 /* poly.hpp in Headers */,
+				A1FCDA062AA509A9007B8017 /* chronos.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1FCDA012AA509A9007B8017 /* chronos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FCDA092AA509A9007B8017 /* Build configuration list for PBXNativeTarget "chronos" */;
+			buildPhases = (
+				A1FCD9FD2AA509A9007B8017 /* Headers */,
+				A1FCD9FE2AA509A9007B8017 /* Sources */,
+				A1FCD9FF2AA509A9007B8017 /* Frameworks */,
+				A1FCDA002AA509A9007B8017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chronos;
+			productName = chronos;
+			productReference = A1FCDA022AA509A9007B8017 /* chronos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FCD9F92AA509A9007B8017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A1FCDA012AA509A9007B8017 = {
+						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = A1FCD9FC2AA509A9007B8017 /* Build configuration list for PBXProject "chronos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1FCD9F82AA509A9007B8017;
+			productRefGroup = A1FCDA032AA509A9007B8017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FCDA012AA509A9007B8017 /* chronos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FCDA002AA509A9007B8017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FCD9FE2AA509A9007B8017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FCDA1A2AA5151C007B8017 /* InternalTimer.swift in Sources */,
+				A1FCDA142AA50D6B007B8017 /* Array+Copy.swift in Sources */,
+				A1FCDA162AA50D9C007B8017 /* Debug.swift in Sources */,
+				A1FCDA1C2AA51552007B8017 /* StateMachine.swift in Sources */,
+				A1FCDA182AA50DDE007B8017 /* Demodulator.swift in Sources */,
+				A1FCDA0D2AA50CC6007B8017 /* Chronos.swift in Sources */,
+				A1FCDA0F2AA50D32007B8017 /* AudioCapture.swift in Sources */,
+				A1FCDA122AA50D5B007B8017 /* Array+Chunked.swift in Sources */,
+				A1FCDA202AA515E8007B8017 /* reed-solomon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1FCDA072AA509A9007B8017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1FCDA082AA509A9007B8017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1FCDA0A2AA509A9007B8017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is used because it enables us to synchronize with external audio";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.rhys.chronos;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FCDA0B2AA509A9007B8017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4G7W9253U9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is used because it enables us to synchronize with external audio";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.rhys.chronos;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FCD9FC2AA509A9007B8017 /* Build configuration list for PBXProject "chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FCDA072AA509A9007B8017 /* Debug */,
+				A1FCDA082AA509A9007B8017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FCDA092AA509A9007B8017 /* Build configuration list for PBXNativeTarget "chronos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FCDA0A2AA509A9007B8017 /* Debug */,
+				A1FCDA0B2AA509A9007B8017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FCD9F92AA509A9007B8017 /* Project object */;
+}
