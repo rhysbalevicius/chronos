@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A14817982AA7378E005EEE78 /* gf.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A14817952AA7378E005EEE78 /* gf.hpp */; };
+		A14817992AA7378E005EEE78 /* rs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A14817962AA7378E005EEE78 /* rs.hpp */; };
+		A148179A2AA7378E005EEE78 /* poly.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A14817972AA7378E005EEE78 /* poly.hpp */; };
+		A16D1A5D2AA72840006D8FA2 /* Decoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = A16D1A542AA72840006D8FA2 /* Decoder.mm */; };
+		A16D1A632AA72840006D8FA2 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A16D1A5C2AA72840006D8FA2 /* Decoder.h */; };
 		A1FCDA062AA509A9007B8017 /* chronos.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA052AA509A9007B8017 /* chronos.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1FCDA0D2AA50CC6007B8017 /* Chronos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */; };
 		A1FCDA0F2AA50D32007B8017 /* AudioCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA0E2AA50D32007B8017 /* AudioCapture.swift */; };
@@ -16,14 +21,28 @@
 		A1FCDA182AA50DDE007B8017 /* Demodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA172AA50DDE007B8017 /* Demodulator.swift */; };
 		A1FCDA1A2AA5151C007B8017 /* InternalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA192AA5151C007B8017 /* InternalTimer.swift */; };
 		A1FCDA1C2AA51552007B8017 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA1B2AA51552007B8017 /* StateMachine.swift */; };
-		A1FCDA202AA515E8007B8017 /* reed-solomon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */; };
-		A1FCDA212AA515E8007B8017 /* reed-solomon.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */; };
-		A1FCDA922AA54077007B8017 /* gf.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA8F2AA54077007B8017 /* gf.hpp */; };
-		A1FCDA932AA54077007B8017 /* rs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA902AA54077007B8017 /* rs.hpp */; };
-		A1FCDA942AA54077007B8017 /* poly.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A1FCDA912AA54077007B8017 /* poly.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A14817952AA7378E005EEE78 /* gf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
+		A14817962AA7378E005EEE78 /* rs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		A14817972AA7378E005EEE78 /* poly.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
+		A148B92F2AA611D900A43A76 /* reed-solomon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "reed-solomon.hpp"; sourceTree = "<group>"; };
+		A148B9312AA611D900A43A76 /* gf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
+		A148B9322AA611D900A43A76 /* rs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		A148B9332AA611D900A43A76 /* poly.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
+		A148B9342AA611D900A43A76 /* reed-solomon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reed-solomon.cpp"; sourceTree = "<group>"; };
+		A148B9362AA611F600A43A76 /* gf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
+		A148B9372AA611F600A43A76 /* rs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		A148B9382AA611F600A43A76 /* poly.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
+		A148B93A2AA6121900A43A76 /* reed-solomon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "reed-solomon.hpp"; sourceTree = "<group>"; };
+		A148B93C2AA6121900A43A76 /* gf.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
+		A148B93D2AA6121900A43A76 /* rs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
+		A148B93E2AA6121900A43A76 /* poly.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
+		A148B93F2AA6121900A43A76 /* reed-solomon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reed-solomon.cpp"; sourceTree = "<group>"; };
+		A16D1A542AA72840006D8FA2 /* Decoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Decoder.mm; sourceTree = "<group>"; };
+		A16D1A5B2AA72840006D8FA2 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		A16D1A5C2AA72840006D8FA2 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
 		A1FCDA022AA509A9007B8017 /* chronos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = chronos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1FCDA052AA509A9007B8017 /* chronos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chronos.h; sourceTree = "<group>"; };
 		A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chronos.swift; sourceTree = "<group>"; };
@@ -34,12 +53,6 @@
 		A1FCDA172AA50DDE007B8017 /* Demodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demodulator.swift; sourceTree = "<group>"; };
 		A1FCDA192AA5151C007B8017 /* InternalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTimer.swift; sourceTree = "<group>"; };
 		A1FCDA1B2AA51552007B8017 /* StateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
-		A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "reed-solomon.cpp"; sourceTree = "<group>"; };
-		A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "reed-solomon.hpp"; sourceTree = "<group>"; };
-		A1FCDA8F2AA54077007B8017 /* gf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gf.hpp; sourceTree = "<group>"; };
-		A1FCDA902AA54077007B8017 /* rs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rs.hpp; sourceTree = "<group>"; };
-		A1FCDA912AA54077007B8017 /* poly.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = poly.hpp; sourceTree = "<group>"; };
-		A1FCDA952AA54718007B8017 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +66,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14817932AA73750005EEE78 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A14817942AA7378E005EEE78 /* Reed-Solomon */,
+				A16D1A542AA72840006D8FA2 /* Decoder.mm */,
+				A16D1A5C2AA72840006D8FA2 /* Decoder.h */,
+				A16D1A5B2AA72840006D8FA2 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A14817942AA7378E005EEE78 /* Reed-Solomon */ = {
+			isa = PBXGroup;
+			children = (
+				A14817952AA7378E005EEE78 /* gf.hpp */,
+				A14817962AA7378E005EEE78 /* rs.hpp */,
+				A14817972AA7378E005EEE78 /* poly.hpp */,
+			);
+			path = "Reed-Solomon";
+			sourceTree = "<group>";
+		};
+		A148B92D2AA611D900A43A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A148B9392AA6121900A43A76 /* include */,
+				A148B9352AA611F600A43A76 /* Reed-Solomon */,
+				A148B92E2AA611D900A43A76 /* include */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A148B92E2AA611D900A43A76 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A148B92F2AA611D900A43A76 /* reed-solomon.hpp */,
+				A148B9302AA611D900A43A76 /* Reed-Solomon */,
+				A148B9342AA611D900A43A76 /* reed-solomon.cpp */,
+			);
+			name = include;
+			path = chronos/include;
+			sourceTree = "<group>";
+		};
+		A148B9302AA611D900A43A76 /* Reed-Solomon */ = {
+			isa = PBXGroup;
+			children = (
+				A148B9312AA611D900A43A76 /* gf.hpp */,
+				A148B9322AA611D900A43A76 /* rs.hpp */,
+				A148B9332AA611D900A43A76 /* poly.hpp */,
+			);
+			path = "Reed-Solomon";
+			sourceTree = "<group>";
+		};
+		A148B9352AA611F600A43A76 /* Reed-Solomon */ = {
+			isa = PBXGroup;
+			children = (
+				A148B9362AA611F600A43A76 /* gf.hpp */,
+				A148B9372AA611F600A43A76 /* rs.hpp */,
+				A148B9382AA611F600A43A76 /* poly.hpp */,
+			);
+			name = "Reed-Solomon";
+			path = "chronos/include/Reed-Solomon";
+			sourceTree = "<group>";
+		};
+		A148B9392AA6121900A43A76 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A148B93A2AA6121900A43A76 /* reed-solomon.hpp */,
+				A148B93B2AA6121900A43A76 /* Reed-Solomon */,
+				A148B93F2AA6121900A43A76 /* reed-solomon.cpp */,
+			);
+			name = include;
+			path = chronos/include;
+			sourceTree = "<group>";
+		};
+		A148B93B2AA6121900A43A76 /* Reed-Solomon */ = {
+			isa = PBXGroup;
+			children = (
+				A148B93C2AA6121900A43A76 /* gf.hpp */,
+				A148B93D2AA6121900A43A76 /* rs.hpp */,
+				A148B93E2AA6121900A43A76 /* poly.hpp */,
+			);
+			path = "Reed-Solomon";
+			sourceTree = "<group>";
+		};
 		A1FCD9F82AA509A9007B8017 = {
 			isa = PBXGroup;
 			children = (
 				A1FCDA042AA509A9007B8017 /* chronos */,
 				A1FCDA032AA509A9007B8017 /* Products */,
+				A148B92D2AA611D900A43A76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,7 +170,7 @@
 		A1FCDA042AA509A9007B8017 /* chronos */ = {
 			isa = PBXGroup;
 			children = (
-				A1FCDA1D2AA515BF007B8017 /* ReedSolomon */,
+				A14817932AA73750005EEE78 /* include */,
 				A1FCDA102AA50D48007B8017 /* Extensions */,
 				A1FCDA052AA509A9007B8017 /* chronos.h */,
 				A1FCDA0C2AA50CC6007B8017 /* Chronos.swift */,
@@ -81,7 +179,6 @@
 				A1FCDA172AA50DDE007B8017 /* Demodulator.swift */,
 				A1FCDA192AA5151C007B8017 /* InternalTimer.swift */,
 				A1FCDA1B2AA51552007B8017 /* StateMachine.swift */,
-				A1FCDA952AA54718007B8017 /* module.modulemap */,
 			);
 			path = chronos;
 			sourceTree = "<group>";
@@ -95,26 +192,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		A1FCDA1D2AA515BF007B8017 /* ReedSolomon */ = {
-			isa = PBXGroup;
-			children = (
-				A1FCDA8E2AA54077007B8017 /* Reed-Solomon */,
-				A1FCDA1E2AA515E8007B8017 /* reed-solomon.cpp */,
-				A1FCDA1F2AA515E8007B8017 /* reed-solomon.hpp */,
-			);
-			path = ReedSolomon;
-			sourceTree = "<group>";
-		};
-		A1FCDA8E2AA54077007B8017 /* Reed-Solomon */ = {
-			isa = PBXGroup;
-			children = (
-				A1FCDA8F2AA54077007B8017 /* gf.hpp */,
-				A1FCDA902AA54077007B8017 /* rs.hpp */,
-				A1FCDA912AA54077007B8017 /* poly.hpp */,
-			);
-			path = "Reed-Solomon";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -122,10 +199,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FCDA922AA54077007B8017 /* gf.hpp in Headers */,
-				A1FCDA932AA54077007B8017 /* rs.hpp in Headers */,
-				A1FCDA212AA515E8007B8017 /* reed-solomon.hpp in Headers */,
-				A1FCDA942AA54077007B8017 /* poly.hpp in Headers */,
+				A14817982AA7378E005EEE78 /* gf.hpp in Headers */,
+				A14817992AA7378E005EEE78 /* rs.hpp in Headers */,
+				A16D1A632AA72840006D8FA2 /* Decoder.h in Headers */,
+				A148179A2AA7378E005EEE78 /* poly.hpp in Headers */,
 				A1FCDA062AA509A9007B8017 /* chronos.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,11 +280,11 @@
 				A1FCDA142AA50D6B007B8017 /* Array+Copy.swift in Sources */,
 				A1FCDA162AA50D9C007B8017 /* Debug.swift in Sources */,
 				A1FCDA1C2AA51552007B8017 /* StateMachine.swift in Sources */,
+				A16D1A5D2AA72840006D8FA2 /* Decoder.mm in Sources */,
 				A1FCDA182AA50DDE007B8017 /* Demodulator.swift in Sources */,
 				A1FCDA0D2AA50CC6007B8017 /* Chronos.swift in Sources */,
 				A1FCDA0F2AA50D32007B8017 /* AudioCapture.swift in Sources */,
 				A1FCDA122AA50D5B007B8017 /* Array+Chunked.swift in Sources */,
-				A1FCDA202AA515E8007B8017 /* reed-solomon.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +343,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MODULEMAP_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -323,6 +401,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MODULEMAP_FILE = "";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -350,12 +429,14 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is used because it enables us to synchronize with external audio";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.rhys.chronos;
@@ -365,9 +446,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/chronos/include";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -387,12 +469,14 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone is used because it enables us to synchronize with external audio";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.rhys.chronos;
@@ -402,8 +486,9 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/chronos/include";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
