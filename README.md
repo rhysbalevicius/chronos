@@ -1,11 +1,15 @@
-# lipsync
+# chronos
 
 *Proof of concept framework for synchronizing iOS events with high-frequency tones*
 
 ## Building and integrating the Chronos framework
 
 ```
-cd Chronos/
+# Ensure that you've cloned the submodules
+git submodule update --init --recursive
+
+# Build the framework
+cd chronos/
 ./build_framework.sh
 ```
 
@@ -86,10 +90,10 @@ cd pcm
 g++ -std=c++17 -x objective-c++ -framework Foundation main.mm Modulator.mm -o encoder
 ```
 
-Then execute:
+Then encode a payload (identifier, timestamp) as a packed int where each part occupies the first and second 32-bits, respectively. Then convert this payload to a wav file by running:
 
 ```
-./encoder <timestamp>
+./encoder <payload>
 ```
 
-You will then need to overlay this onto your media, e.g. using [ffmpeg](https://ffmpeg.org/), at the appropriate timestamp you wish the event to occur at. 
+You will then need to overlay these onto your media's audio track, e.g. using [ffmpeg](https://ffmpeg.org/), at their respective timestamps. 
